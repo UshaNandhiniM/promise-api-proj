@@ -1,0 +1,38 @@
+.container{
+    color: white;
+    background-color: rgb(35, 64, 65);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.card{
+    border-radius: 10px !important;
+    background-color: linear-gradient(to rigth, rgb(233, 216, 182),rgb(49, 58, 57))!important;
+    margin-bottom: 10px !important;
+}
+.card .img-box{
+    display: flex;
+    justify-content: center;
+    height: 8em;
+    margin: 30px auto 0 auto !important ;
+    object-fit: scale-down;
+
+}
+.immg-box img{
+    border-radius: 10px !important;
+    width: 90%;
+    align-self: center;
+    height: 100%;
+}
+
+.card-body{
+    padding-bottom: 50px !important;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    align-items: center;
+}
+.col-sm-6{
+    margin-top:1em !important;
+
+}
